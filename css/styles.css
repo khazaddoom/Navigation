@@ -47,7 +47,8 @@ a:hover {
 	position: absolute;
 	background: red;
 	display: inline;
-	top: 100px;
+	top: 50%;
+	left: 50%;
 
 }
 
