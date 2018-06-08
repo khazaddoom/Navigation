@@ -40,10 +40,15 @@ a:hover {
 	background: #c2bbb1 url("../images/1.jpg") center center no-repeat;
 	background-size: cover;
 	height: 600px;
+	position: relative;
 }
 
 .firstContent {
-	text-align: center;
+	position: absolute;
+	background: red;
+	display: inline;
+	top: 100px;
+
 }
 
 
