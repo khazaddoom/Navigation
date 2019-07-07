@@ -1,0 +1,14 @@
+.hero {	
+	background: #c2bbb1 url("../images/1.jpg") center center no-repeat;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+
+.hero__title {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%, 0);
+	color: beige
+}
