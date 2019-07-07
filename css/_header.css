@@ -1,8 +1,10 @@
-.header {
-    height: 100px;
-}
 nav ul {
-    display: flex;    
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+nav ul li {
+    flex-shrink: 0
 }
 
