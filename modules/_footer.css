@@ -1,0 +1,16 @@
+.footer {
+    display: flex
+}
+
+
+.footer__copyright {
+    font-weight: 200
+}
+
+.footer__links {
+    display: inline;
+}
+
+.footer__links li {
+    display: inline;
+}
