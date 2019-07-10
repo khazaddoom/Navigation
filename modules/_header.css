@@ -1,5 +1,11 @@
+.header {
+    height: 5rem
+}
 nav ul {
+    height: inherit;
     display: flex;
+    align-items: center;
+    justify-content: space-around
 }
 
 nav ul li {
