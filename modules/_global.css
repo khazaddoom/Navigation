@@ -22,5 +22,7 @@ ul li a {
 
 a:hover {
 	color: #f03ec9;
-	font-weight: bolder; 
+	font-weight: bolder;
+	/* padding: 5px 25px; */
+	background: rgb(230, 202, 202);
 }
