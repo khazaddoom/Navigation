@@ -1,12 +1,15 @@
 nav ul {
+    padding: 0;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+
 }
 
 nav ul li {
-    background: white;
+    flex-basis: 400px;
     text-align: center;
-    flex-grow: 1;    
+    flex-shrink: 0;
+
 }
 
 
