@@ -1,15 +1,16 @@
+.header {
+    height: 5rem
+}
 nav ul {
-    padding: 0;
-    display: flex;
+    height: inherit;
+    display: flex;    
     flex-wrap: wrap;
-
+    text-align: center;
+    align-items: center
 }
 
 nav ul li {
-    flex-basis: 400px;
-    text-align: center;
-    flex-shrink: 0;
-
+    width: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;    
 }
-
-

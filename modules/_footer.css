@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(247, 247, 236)
+}
+
+
+.footer__copyright {
+    
+}
+
+.footer__links {
+    display: inline;
+}
+
+.footer__links li {
+    display: inline;
+}
