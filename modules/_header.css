@@ -1,8 +1,12 @@
 nav ul {
     display: flex;
+    flex-wrap: wrap
 }
 
 nav ul li {
-    flex-shrink: 0
+    background: white;
+    text-align: center;
+    flex-grow: 1;    
 }
+
 
