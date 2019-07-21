@@ -1,7 +1,7 @@
 .header {
     height: 5rem
 }
-nav ul {
+nav.header ul {
     height: inherit;
     display: flex;    
     flex-wrap: wrap;
@@ -10,7 +10,13 @@ nav ul {
 }
 
 nav ul li {
-    width: 400px;
     flex-grow: 1;
     flex-shrink: 0;    
 }
+
+small devices
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
