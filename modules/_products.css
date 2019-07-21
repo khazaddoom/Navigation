@@ -1,8 +1,16 @@
 .products {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
+
 .products__item {
-    flex-grow: 0;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.products__item--main-heading {
+    flex-basis: 100%;
+    text-align: center
 }
