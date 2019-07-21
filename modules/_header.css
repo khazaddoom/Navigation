@@ -13,10 +13,3 @@ nav ul li {
     flex-grow: 1;
     flex-shrink: 0;    
 }
-
-small devices
-@media screen and (max-width: 992px) {
-    body {
-      background-color: blue;
-    }
-  }
