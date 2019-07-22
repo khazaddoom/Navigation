@@ -5,9 +5,8 @@
 
 
 .products__item {
-    flex-basis: 400px;
+    width: 300px;
     flex-grow: 1;
-    flex-shrink: 0;
 }
 
 .products__item--main-heading {

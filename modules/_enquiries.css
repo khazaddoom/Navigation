@@ -8,3 +8,9 @@
     padding: 5rem 5rem;
 
 }
+
+.enquiries__title {
+    flex-basis: 100%;
+    text-align: center
+}
+
