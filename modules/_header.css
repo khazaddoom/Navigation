@@ -1,5 +1,6 @@
 .header {
-    height: 5rem
+    height: 5rem;
+    background-color: rgba(230, 202, 202, 0.4);
 }
 nav.header ul {
     height: inherit;

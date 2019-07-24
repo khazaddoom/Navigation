@@ -10,6 +10,7 @@
 }
 
 .products__item--main-heading {
-    flex-basis: 100%;
-    text-align: center
+    flex-basis: 100vw;
+    text-align: center;
+    background-color: rgba(230, 202, 202, 0.4);
 }
