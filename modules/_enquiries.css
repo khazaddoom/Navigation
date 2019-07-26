@@ -1,5 +1,7 @@
 .enquiries {
-    background: rgba(247, 247, 236, .2)
+    background: rgba(247, 247, 236, .2);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .enquiries__contact-form {
@@ -17,3 +19,13 @@
     text-align: center
 }
 
+.enquiries__item {
+    width: 300px;
+    flex-grow: 1;
+}
+
+.enquiries__item--main-heading {
+    flex-basis: 100vw;
+    text-align: center;
+    background-color: rgba(230, 202, 202, 0.4);
+}
