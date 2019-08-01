@@ -2,95 +2,93 @@
 
 <html>
 
-<head>
-	
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<head>	
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
 
-</head>
-
-<body>	
-	
-	<nav class="header">
-		<ul class="header__navlinks">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#enquiries">Enquiries</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>		
-	</nav>
-
-	<div class="hero">		
-		<!-- <h1 class="hero__title">Amazing list of offerings</h1> -->	
-	</div>
-
-	<div class="products">
-
-		<div class="products__item products__item--main-heading">
-			<h1 class="products__section-title">Our Products</h1>
-		</div>
+	<body>	
 		
-		<div class="products__item">
-			<div class="wrapper">
-				<h3>Applications</h3>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo velit praesentium, eaque aspernatur saepe est consequatur asperiores, nostrum odio sit repellendus recusandae cupiditate nihil voluptatum tempora, laborum temporibus pariatur eos.
-				Laboriosam error autem quod dolorem debitis, expedita id fugit praesentium vitae blanditiis magnam unde eligendi similique ipsam atque, cumque placeat cum illo? Eaque, autem dolore! Labore nostrum necessitatibus culpa aliquid.
-			Distinctio repellendus suscipit adipisci ad illo praesentium autem eos consequuntur nemo? In quaerat laborum sed. Laudantium quibusdam est distinctio nobis harum voluptas itaque. Quasi neque, aspernatur ipsa officia officiis quas.</p>
+		<nav class="header">
+			<ul class="header__navlinks">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#enquiries">Enquiries</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>		
+		</nav>
+
+		<div class="hero">		
+			<!-- <h1 class="hero__title">Amazing list of offerings</h1> -->	
+		</div>
+
+		<div class="products">
+
+			<div class="products__item products__item--main-heading">
+				<h1 class="products__section-title">Our Products</h1>
 			</div>
+			
+			<div class="products__item">
+				<div class="wrapper">
+					<h3>Applications</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo velit praesentium, eaque aspernatur saepe est consequatur asperiores, nostrum odio sit repellendus recusandae cupiditate nihil voluptatum tempora, laborum temporibus pariatur eos.
+					Laboriosam error autem quod dolorem debitis, expedita id fugit praesentium vitae blanditiis magnam unde eligendi similique ipsam atque, cumque placeat cum illo? Eaque, autem dolore! Labore nostrum necessitatibus culpa aliquid.
+				Distinctio repellendus suscipit adipisci ad illo praesentium autem eos consequuntur nemo? In quaerat laborum sed. Laudantium quibusdam est distinctio nobis harum voluptas itaque. Quasi neque, aspernatur ipsa officia officiis quas.</p>
+				</div>
+					
+			</div>
+
+			<div class="products__item">
+				<div class="wrapper">
+					<h3>Infrastructure</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi a, aliquam in dignissimos ipsum architecto reprehenderit facilis sequi corrupti commodi quia asperiores voluptatem repellat eveniet inventore cumque beatae ipsam!Porro harum, ducimus voluptate excepturi quod, nesciunt numquam perferendis aspernatur alias odio delectus ipsum? Fuga voluptatibus modi atque, ex quidem aperiam ab unde error aliquid dicta, voluptatum totam ea aspernatur!</p>
+				</div>
 				
-		</div>
-
-		<div class="products__item">
-			<div class="wrapper">
-				<h3>Infrastructure</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi a, aliquam in dignissimos ipsum architecto reprehenderit facilis sequi corrupti commodi quia asperiores voluptatem repellat eveniet inventore cumque beatae ipsam!Porro harum, ducimus voluptate excepturi quod, nesciunt numquam perferendis aspernatur alias odio delectus ipsum? Fuga voluptatibus modi atque, ex quidem aperiam ab unde error aliquid dicta, voluptatum totam ea aspernatur!</p>
 			</div>
-			
-		</div>
 
-		<div class="products__item">
-			<div class="wrapper">
-				<h3>Services</h3>	
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, velit maxime necessitatibus possimus corrupti est illum illo excepturi ullam optio laudantium, architecto placeat quas repellat error earum repudiandae mollitia inventore.Laudantium asperiores exercitationem mollitia impedit! Atque ullam tempore quidem, ad, dolorum accusantium maxime autem fugit aut ex quisquam facere maiores tempora vel mollitia. Tempore aliquid vel pariatur assumenda dicta totam!</p>
+			<div class="products__item">
+				<div class="wrapper">
+					<h3>Services</h3>	
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, velit maxime necessitatibus possimus corrupti est illum illo excepturi ullam optio laudantium, architecto placeat quas repellat error earum repudiandae mollitia inventore.Laudantium asperiores exercitationem mollitia impedit! Atque ullam tempore quidem, ad, dolorum accusantium maxime autem fugit aut ex quisquam facere maiores tempora vel mollitia. Tempore aliquid vel pariatur assumenda dicta totam!</p>
+				</div>
+				
 			</div>
+		</div>
+
+		<div class="enquiries" id="enquiries">		
+		
+			<div class="enquiries__item enquiries__item--main-heading">
+				<h1 class="enquiries__title">For Enquiries</h1>
+			</div>
+			<form class="enquiries__item enquiries__contact-form">
+				<label for="fullname">Your Name</label>
+				<input type="text" id="fullname">
+				<label for="email">Email Address</label>
+				<input type="text" id="email">
+				<label for="query">Your Query</label>
+				<textarea rows="4" cols="50" id="query"></textarea>
+				<button type="submit">Send Enquiry</button>
+			</form>
 			
 		</div>
-	</div>
 
-	<div class="enquiries" id="enquiries">		
-	
-		<div class="enquiries__item enquiries__item--main-heading">
-			<h1 class="enquiries__title">For Enquiries</h1>
-		</div>
-		<form class="enquiries__item enquiries__contact-form">
-			<label for="fullname">Your Name</label>
-			<input type="text" id="fullname">
-			<label for="email">Email Address</label>
-			<input type="text" id="email">
-			<label for="query">Your Query</label>
-			<textarea rows="4" cols="50" id="query"></textarea>
-			<button type="submit">Send Enquiry</button>
-		</form>
-		
-	</div>
+		<footer class="footer">
 
-	<footer class="footer">
-
-		<div class="footer__copyright">&copy; MY FOOTER. ALL RIGHTS RESERVED</div>
-		
-		
-		<ul class="footer__links">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Enquiries</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>
+			<div class="footer__copyright">&copy; MY FOOTER. ALL RIGHTS RESERVED</div>
 			
-	
+			
+			<ul class="footer__links">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Enquiries</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+				
 		
-	</footer>
-	
+			
+		</footer>
+		
 
 
-</body>
+	</body>
 
 </html>
